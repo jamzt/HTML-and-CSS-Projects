@@ -1,0 +1,21 @@
+table {
+    border: 1px solid fuchsia;
+}
+td:hover{
+background-color: lightsalmon;
+color: black;
+}
+/*this makes top row background yellow when mouse hovers over*/
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+/*this makes top row background balc and font-cornsilk*/
+tr, td {
+    background-color: navy;
+    color: white;
+}
+/*this makes other rows background dark green and font - white*/
+ol {
+    list-style-type: upper-roman;
+}

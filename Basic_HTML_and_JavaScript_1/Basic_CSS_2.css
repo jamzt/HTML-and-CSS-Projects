@@ -1,0 +1,8 @@
+p {
+    color: darkblue;
+    background: lightseagreen;
+    font-weight: italic;
+    text-align: center;
+    text-shadow: 2px 8px 10px blue;
+    /* shadow fomrula x-offset y-offset blur-radius shadow-color*/
+}
