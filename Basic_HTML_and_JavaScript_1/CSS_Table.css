@@ -16,6 +16,4 @@ tr, td {
     color: white;
 }
 /*this makes other rows background dark green and font - white*/
-ol {
-    list-style-type: upper-roman;
-}
+
