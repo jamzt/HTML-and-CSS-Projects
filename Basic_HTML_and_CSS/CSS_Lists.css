@@ -1,0 +1,8 @@
+ol {
+    list-style-type: upper-roman;
+}
+/* changes 1 2 3 ordered list to I II III: */
+ul {
+    list-style-type: square;
+}
+/* changes ordered list from circle to square

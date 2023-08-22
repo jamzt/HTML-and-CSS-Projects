@@ -1,8 +1,0 @@
-ol {
-    list-style-type: upper-roman;
-}
-/* chnages 1 2 3 ordered list to I II III: */
-ul {
-    list-style-type: square;
-}
-/* chnages ordered list from circle to square
