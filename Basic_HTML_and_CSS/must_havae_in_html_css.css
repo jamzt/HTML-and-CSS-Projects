@@ -1,0 +1,14 @@
+/* html always muct have */
+<!DOCTYPE html>
+<meta charset="UTG-8">
+
+
+/* using css within html file by having it as a seperte file best do it extrenally
+can be placed in html internally, inline*/
+
+<link rel="stylesheet" type="text/css" href="file_name.css">
+
+
+/*example of internal placement */
+body {
+    background-color: black}
