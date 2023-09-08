@@ -1,138 +1,174 @@
-<!-- 1 Home page section (heading tag, <p> tag, etc.).
-2 A section with pictures (<img> tags, etc.).
-3 Contact form (<form> tag, <input> tag, etc.).
-4 A section with a video(s) (<iframe> tag, src attribute, etc.).
-5 Footer (<footer> tag, etc.).
-6 A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the <page class=" -->
-
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>name and logo</title>
+    <title>I Am Power</title>
+    <link rel="stylesheet" href="./CSS/one_page_website.css">
 </head>
 
 <body>
-<header>
-    <img src="./betterlogo.png" alt="logo" width="150" height="90" <h4><b> We empower. You take off. </b></h4>
-</header>
-<!--NAV-->
-<div>
-    <div>
-        <ul>
-            <a href="#home" id="link"><li>HOME</li></a>
-            <a href="#about" id="link"><li>ABOUT US</li></a>
-            <a href="#resources"><li>RESOURCES</li></a>
-            <a href="#jobs"><li>JOBS</li></a>
-            <a href="#contact"><li>CONTACT US</li></a>
-        </ul>
-    </div>
-</div>
-<!--END NAV-->
 
- <!-- HOME-->
- <div id="home">
-    <div>
-        <div>
-            <span>Better Org</span>
+    <header>
+        <img src="./iampowerlogo.png" alt="logo" width="160" height="100"> <h5><b> We are here to empower you. </b></h5>
+    </header>
+    <!--NAV-->
+    <section class="wrap">
+        <div class="menu-container">
+            <ul class="menu">
+                <a href="#about"><li>ABOUT US</li></a>
+                <a href="#resources"><li>RESOURCES</li></a>
+                <a href="#jobs"><li>JOBS</li></a>                
+                <a href="#contact"><li>CONTACT US</li></a>
+            </ul>
         </div>
-    </div>
-</div>
-<!--END HOME-->
+    </section>
+    <!--END NAV-->
 
-<!--ABOUT-->
-<section>
+   
+    <!--ABOUT-->
     <div id="about">
         <h2>ABOUT US</h2>
-        <p>Our mission to advocating equal opportunities. We are committed to empowerment of those
-            who want to imporve their livelihood through permament employement, because we believe in inclusion and upward mobility.</p>
+        <h5>Our mission is to advocate equal opportunities for upward mobility. We are committed to empowerment of thosre 
+            who wish to imporve their livelihood through employement.</h5>
     </div>
-</section>
-<!--END ABOUT  US-->
+    <!--END ABOUT  US-->
 
-<!-- RESOURCES-->
-<section>
-    <div id="resources">
-        <h2>Resources</h2>
 
-        <div>
+    <!-- RESOURCES-->
+    <section id="resources">
+        <h2>RESOURCES</h2>
+        <div class="flex-container">
+
+            <!--Meal container-->
             <h3> Meal</h3>
-            <img src="./meal.jpeg" alt="meal" width="200" height="150">
-            <p>These are the places in your area that will serve you food.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./meal.jpeg" alt="meal" width="200" height="150">
+                    <p>These are the places in your area that will serve you food.</p>
+                </div>   
+            </div>
+            <!--End Meal container-->
 
-        <div>
+            <!--Sheter container-->
             <h3>Shelter</h3>
-            <img src="./shelter.jpeg" alt="shelter" width="200" height="150">
-            <p>These are the places in your area you can stay overnight.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./shelter.jpeg" alt="shelter" width="200" height="150">
+                    <p>These are the places in your area you can stay overnight.</p>
+                </div>
+            </div>
+            <!--End Sheter container-->
 
-        <div>
+            <!--Haircut container-->
             <h3> Hair Cut</h3>
-            <img src="./haircut.jpeg" alt="hair cut" width="200" height="150">
-            <p>These places in your area will give you haircut.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./haircut.jpeg" alt="hair cut" width="200" height="150">
+                    <p>These places in your area will give you haircut.</p>
+                </div>
+            </div>
+            <!--End Haircut container-->
 
-        <div>
+            <!--Health container-->
             <h3> Mental Health Help</h3>
-            <img src="./mental_health.jpeg" alt="mental health" width="200" height="150">
-            <p>These places in your area will help you with mental health issues.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./mental_health.jpeg" alt="mental health" width="200" height="150">
+                    <p>These places in your area will help you with mental health issues.</p>
+                </div>
+            </div>
+            <!--End Haircut container-->
 
-        <div>
+
+            <!--Resume container-->
             <h3> Resume Help</h3>
-            <img src="./resume.jpeg" alt="resume" width="200" height="150">
-            <p>Please fill out our form and state you need resume help. We will advice and assisnt you on one-on-one basis.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./resume.jpeg" alt="resume" width="200" height="150">
+                    <p>Please fill out our form and state you need resume help. We will advice and assisnt you on one-on-one basis.</p>
+                </div>
+            </div>    
+            <!--End Resume container-->
 
-        <div>
+
+            <!--Interview container-->
             <h3> Job Interview Help</h3>
-            <img src="./interview.jpeg" alt="job interview" width="200" height="150">
-            <p>Please fill out our form and state you need interview help. We will advice and assisnt you on one-on-one basis.</p>
-        </div>
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./interview.jpeg" alt="job interview" width="200" height="150">
+                    <p>Please fill out our form and state you need interview help. We will advice and assisnt you on one-on-one basis.</p>
+                </div>
+            </div>        
+            <!--End Interview container-->
         
-        <div>
+            <!--Clothes container-->
             <h3>Clothes for Interview and Work</h3>
-            <img src="./clothes.jpeg" alt="clothes for work" width="200" height="150">
-            <p>These places in your area sell affordable/have free professional clothes.</p>
-        </div>    
-    </div>
-</section>
-<!--END RESOURCES-->
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="./clothes.jpeg" alt="clothes for work" width="200" height="150">
+                    <p>These places in your area sell affordable/have free professional clothes.</p>
+                </div>
+            </div>        
+            <!--End Clothes container--> 
+        </section>
+    <!--END RESOURCES-->
+
 
 <!--JOBS-->
-<section>
     <div id="jobs">
-        <h2>Jobs</h2>
-        <p>there will be a link to a second page with job listings</p>
+    <div class="container">
+        <div class="text-center">
+            <h2>JOBS</h2>
+            <p>Click here to see jobs</p>
+        </div>
     </div>
-</section>
+</div>        
 <!--END JOBS-->
 
-<!--CONTACT US-->
 
-<form action="" method="get">
-    <div id="contact"></div>
-    <!-- ths can be "get" "delete" "put -->
-    <p>Please fill out this to contact us, we will reach out:</p>
-        First name: <input type="text" name="First_Name"><br>
-        Last name: <input type="text" name="Last_Name"><br>
-        Skills possessed: <input type="text" name="skill"><br>
-        Desired job: <input type="text" name="desired_job"><br>
-        Anything else? (optional): <input type="text" name="additional_info"
-        Email: <input type="email" name="Email"><br>
-        <input type="submit" value="Submit">
-    </div>             
-</form>
+<!--CONTACT US-->
+<section id="contact">
+    <div class="container">
+        <div class="heading-padding">
+            <h2 class="heading-padding">CONTACT US</h2>
+            <div class="reservation">
+                <h2><span>Please fill out this to contact us, we will reach out</span>
+                </h2>
+                <div class="form-rsvp">
+                    <form action="" method="post">
+                        <input class="rsvp" type="text" value="" placeholder="First Name">
+                        <input class="rsvp" type="text" value="" placeholder="Last Name">
+                        <input class="rsvp" type="text" value="" placeholder="Email Address">
+                        <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                        <input class="rsvp" type="text" value="" placeholder="Desired Job">
+                        <input class="rsvp" type="text" value="" placeholder="Anything else you want to share">
+                        <div class="form-spacer">
+                            <label class="terms">Terms and Conditions</label>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 <!--END CONTACT US-->
 
-<p>If you need hope watch this video:</p>
-<iframe src="https://www.youtube.com/embed/64i11jNIf4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</body>
+<p>If you need help with creating email address use this link for guide:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/La0fh_JrF3M?si=xEFeIdVAKc8ZnFIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!--need to fix this link part later-->
 
-<footer>
-    <p>&copy; Better&nbsp;Org.&nbsp;2023<rb>
-        Contact: better@gmail.com
+
+<!--FOOTER-->
+<div id="footer">
+    <p>&copy; I Am Power&nbsp;Org.&nbsp; | &nbsp; 2023<rb>
+        Contact: iampowerorg@gmail.com
     </p>
-</footer>
+</div>
+
+</body>
 </html>
