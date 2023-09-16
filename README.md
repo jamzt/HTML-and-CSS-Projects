@@ -1,17 +1,22 @@
-# I will come up with the name for this project later
-## Here I put a header
-This is where I describe what my project is. and what problem it solves, how it works,and what I used to create it.
-and provide a screenshot of what it looks like
+# Jamie's HTML and CSS Projects
+This repository is to share some HTML and CSS projects I did while learning web development.
+## Projects
+These projects are to improve my own front end development skills. they mainly utalize HTML, CSS, and later on I'll add JavaScript and Python. Here are 2 projects. One is school project, and one is my passion project in progress.
+<a href="Basic_HTML_and_CSS/Website_Project/space_station.html"></a>
+<a href="One-Page Website/one_page_website.html"></a>
 
-##Content
+
+##Space Station Site
+This is a website I created. It is a one page website illustrating Home page.
+It contains, navbar, images, and form.
 
 
-
-##Tools 
+##One Page I am Power Site
+This is also one of my first one-page practice websites. It contains menu navbar, several images, form that can be filled out and submitted. This is my passion project and I plan to develop it into a full working website and a non profit organization.
 
 
 ##Contributing
-Here I tell developers how to edit if they want to impove this project
+Feel free to use the code or improve it anyway.  
 
 
 
