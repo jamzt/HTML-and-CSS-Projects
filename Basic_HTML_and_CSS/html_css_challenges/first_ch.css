@@ -1,0 +1,14 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+#rconrers1 {
+    border-radius: 30px;
+    background: #72ad72;
+    padding: 15px;
+    width: 170px;
+    height: 150px;
+}

@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse:collapse ;
+    width: 100%;
+    color: darkmagenta;
+}
+th {
+    border: 2px solid rgb(85, 85, 233);
+    text-align: center;
+    padding: 8px;
+}
+tr {
+    background-color: antiquewhite;
+    border: 2px solid rgb(85, 85, 233);
+    border-collapse:collapse ;
+    padding: 8px;
+
+}
+td:hover{
+    background-color: rgb(175, 131, 216);
+    color: black;
+    }
+
+h3 {
+    text-align: center;
+    color: brown;
+}
+/* <!--<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid blue;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+</style> --> */
