@@ -7,17 +7,16 @@ https://github.com/jamzt/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Webs
 
 https://github.com/jamzt/HTML-and-CSS-Projects/blob/main/One-Page%20Website/one_page_website.html
 
-
-##Space Station Site
+## Space Station Site
 This is a website I created. It is a one page website illustrating Home page.
 It contains, navbar, images, and form.
 
 
-##One Page I am Power Site
+## One Page I am Power Site
 This is also one of my first one-page practice websites. It contains menu navbar, several images, form that can be filled out and submitted. This is my passion project and I plan to develop it into a full working website and a non profit organization.
 
 
-##Contributing
+## Contributing
 Feel free to use the code or improve it anyway.  
 
 
