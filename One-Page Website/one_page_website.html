@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>I Am Power</title>
-    <link rel="stylesheet" href="./CSS/one_page_website.css">
+    <link rel="stylesheet" href="CSS/one_page_website.css">
 </head>
 
 <body>
@@ -127,14 +127,78 @@
 <!--END JOBS-->
 
 
+<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row" openModal() = "">
+    
+    <div class="column">
+        <img src="img/plant1-small.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="img/plant2-small.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="img/plant3-small.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="img/plant4-small.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/plant1.png"  style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/plant2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/plant3.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/plant4.png" style="width:100%">
+        </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+        <img class="demo cursor" src="img/plant1.png" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="img/plant2.png" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="img/plant3.png" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="img/plant4.png" style="width:100%" onclick="currentSlide(4)">
+    </div>
+</div>
+
+
+
 <!--CONTACT US-->
 <section id="contact">
     <div class="container">
         <div class="heading-padding">
             <h2 class="heading-padding">CONTACT US</h2>
             <div class="reservation">
-                <h2><span>Please fill out this to contact us, we will reach out</span>
-                </h2>
+                <h2><span>Please fill out this to contact us</span></h2>
                 <div class="form-rsvp">
                     <form action="" method="post">
                         <input class="rsvp" type="text" value="" placeholder="First Name">
@@ -163,12 +227,12 @@
 <!--need to fix this link part later-->
 
 
-<!--FOOTER-->
-<div id="footer">
-    <p>&copy; I Am Power&nbsp;Org.&nbsp; | &nbsp; 2023<rb>
-        Contact: iampowerorg@gmail.com
-    </p>
-</div>
-
+    <!--FOOTER-->
+    <div id="footer">
+        <p>&copy; I Am Power&nbsp;Org.&nbsp; | &nbsp; 2023<rb>
+            Contact: iampowerorg@gmail.com
+        </p>
+    </div>
+    <script src="JS/one_page_website.js"></script>
 </body>
 </html>
